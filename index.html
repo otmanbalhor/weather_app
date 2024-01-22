@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__toggle-switch">   
+            </div>
+        </nav>
+        <div class="card">
+            <form action="" class="card__search">
+                <input list="list-country" type="text" class="card__search__text" placeholder="enter a city name" spellcheck="false" required>
+                <datalist id="list-country">
+                    <option value="Brussels"></option>
+                    <option value="London"></option>
+                    <option value="Paris"></option>
+                    <option value="Madrid"></option>
+                    <option value="New York"></option>
+                    <option value="Los Angeles"></option>
+                    <option value="Shanghai"></option>
+                    <option value="Tokyo"></option>
+                    <option value="Buenos Aires"></option>
+                    <option value="Lagos"></option>
+                </datalist>
+                <button class="card__search__btn">
+                    <img class="card__search__btn__img" src="assets/images/search.png" alt="search logo">
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main class="main">
+
+    </main>
+
+    <script type="module" defer src="script.js"></script>
+    <script defer src="assets/js/localisation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest"></script>
+</body>
+
+</html>
